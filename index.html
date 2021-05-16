@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./css/lovezdn.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container swiper-container-h">
+    <div class="swiper-wrapper">
+
+      <!-- 标题 -->
+      <div class="swiper-slide title">
+        <video src="./images/bg1.mp4" autoplay="autoplay" loop="loop" muted="muted"></video>
+        <p id="zdnlss"></p>
+      </div>
+      <!-- 分页1 -->
+      <div class="swiper-slide">
+        <div class="swiper-container swiper-container-v">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bg-lovezdn1">
+
+              <div class="page1-lovezdn1">
+                <img src="./images/headerzdn.jpg" alt="zdn">
+                <img src="./images/dog1.gif" alt="dog">
+                <img src="./images/headerlss.jpg" alt="lss">
+                <p id="lovetime"></p>
+                <p>我也不知道该准备一点什么给你逗你开心</p>
+                <p>还是写一点好玩的送给你吧~</p>
+                <span class="right">往右划动 →</span>
+              </div>
+
+            </div>
+            <div class="swiper-slide bg-lovezdn2">
+              <div class="page1-lovezdn1">
+                <img class="cat" src="./images/pig1.gif" alt="pig">
+                <p>每天我都是<b>惹你惹你惹你</b></p>
+                <p>希望猪猪能够不生那么多气气</p>
+                <p>那就送你一个我对你爱❤的网站吧</p>
+                <span class="right">再划一次 右</span>
+              </div>
+            </div>
+            <div class="swiper-slide bg-lovezdn3">
+              <div class="page1-lovezdn1">
+                <img class="cat" src="./images/Hug.gif" alt="cat3">
+                <p>我真的<b>超级超级超级超级</b></p>
+                <p>认真</p>
+                <p style="font-size: 13px;">以
+                  <span style="color: red; font-size: 16px;">爱你的心♥</span>
+                  为核心制作
+                </p>
+                <p class="catText">通宵写了好久哈哈哈哈哈,写到了现在早上7点21分❤</p>
+                <span class="right">再划一次吧 →</span>
+              </div>
+            </div>
+            <div class="swiper-slide bg-lovezdn4" id="seq">
+              <div class="page1-lovezdn1">
+                <img class="cat" src="./images/cat4.gif" alt="cat4">
+                <p class="catText">拍你猪头 ↑</p>
+                <p>希望你喜欢呀</p>
+                <p>爱你哟(´▽`ʃ♡ƪ))</p>
+                <b>520快乐我的<span style="color: pink;">猪猪</span></b>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-v"></div>
+        </div>
+      </div>
+
+      <!-- 分页2 -->
+      <div class="swiper-slide bg-lovezdn5" id="qwe">
+        <div id="talkToZDN">
+            <b>想起我们刚确认关系的那一天</b>
+            <br />
+            我迫不及待的放好东西去找你，感觉心里都像烟花一样到处乱炸，现在想起来还是觉得好美妙的感觉
+            <br />
+            <b>这是我们的第一个520</b>
+            <br />
+            也是我人生中第一次过520，我想，我们以后还会过更多更多520
+            <br />
+            希望你以后能少生气，多笑笑，生气了打我就好啦~
+            <br />
+            我希望我们以后能开开心心过好每一天，虽然每天都过得差不多，除去一些生活中的事就只有陪伴你，但是我心里觉得每天都不一样
+            <br />
+            只要有你，我总是能发自内心的笑起来，感觉只要有你的陪伴，生活就美妙了起来
+            <br />
+            我想
+            <br />
+            一直陪你聊天，陪你打游戏，陪你疯，陪你闹，陪你笑
+            <br />
+            诶呀！不会写情书哇我#￥%#￥%%#￥#￥￥#%￥#%%#%#%……
+            <br />
+            <b>520快乐猪猪</b> 
+            <br>
+            <b>爱你的狗勾(´▽`ʃ♡ƪ)</b>
+            
+        </div>
+      </div>
+
+      <!-- 分页3 -->
+      <div class="swiper-slide bg-lovezdn6">
+        <div class="page4-text">
+          <h1>Send To Future</h1>
+          <p>我爱你</p>
+      </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.js"></script>
+  <script src="./js/typeit.min.js"></script>
+  <script src="./js/swiper-3.4.2.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js"></script>
+  <script src="./js/lovetime.js"></script>
+  <script src="./js/talk.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/su.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiperH = new Swiper('.swiper-container-h', {
+    pagination: '.swiper-pagination-h',
+    paginationClickable: true,
+    mousewheelControl: true,
+    direction: 'vertical',
+    spaceBetween: 50,
+    onSlideChangeStart:function(swiper){//滑动父级需要激活滚轮事件
+        swiper.enableMousewheelControl();
+    }
+});
+var swiperV = new Swiper('.swiper-container-v', {
+    pagination: '.swiper-pagination-v',
+    paginationClickable: true,
+    mousewheelControl: true,
+    nested: true,//阻止父级的切换（该属性只能禁止touch事件，如果不需要滑动阻止，可以注释掉，滚轮事件依然生效）
+    //direction: 'vertical',
+    spaceBetween: 50,
+    onSlideChangeStart: function (swiper) {
+        if (swiper.activeIndex > 0 && swiper.activeIndex < swiper.bullets.length - 1) {
+            swiperH.disableMousewheelControl();
+        }
+    },
+    onSlideChangeEnd: function (swiper) {
+        if (!(swiper.activeIndex > 0 && swiper.activeIndex < swiper.bullets.length - 1)) {
+            swiperH.enableMousewheelControl();
+        }
+    }
+});
+      
+      
+  </script>
+</body>
+
+</html>
