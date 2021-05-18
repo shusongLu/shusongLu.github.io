@@ -136,9 +136,10 @@
 }
 
 #talkToZDN {
+    padding-top: 10%;
     width: 750px;
-    padding: 50px 100px;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px 50px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
     margin: 0 auto;
     border-radius: 20px;
     color: white;
@@ -156,4 +157,7 @@
     background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/hainan1.jpg);
 }
 
-    
+    .page4-text{
+        font-size: 50px;
+        color: white;
+    }
